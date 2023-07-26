@@ -1,0 +1,22 @@
+{
+  "devDependencies": {
+    "@babel/core": "7.22.9",
+    "@babel/eslint-parser": "7.22.9",
+    "eslint": "8.45.0",
+    "eslint-plugin-prettier": "4.2.1",
+    "prettier": "2.8.8"
+  },
+
+  "eslintConfig": {
+    "root": true,
+    "plugins": ["prettier"],
+    "parser": "@babel/eslint-parser",
+    "parserOptions": {
+      "requireConfigFile": false
+    },
+    "rules": {
+      "no-trailing-spaces": 1,
+      "prettier/prettier": "error"
+    }
+  }
+}
